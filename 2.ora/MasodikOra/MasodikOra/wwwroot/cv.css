@@ -1,0 +1,60 @@
+﻿body {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 30px;
+    color: fuchsia;
+    text-align: center;
+}
+
+h2 {
+    font-style: italic;
+}
+
+div {
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+span {
+    font-size: 20px;
+    font-weight: bold;
+    color: fuchsia;
+}
+
+img {
+    border: 2px solid brown;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    list-style-type: none;
+}
+
+a {
+    border: 1px dashed brown;
+    background-color: aqua;
+}
+
+    a:hover {
+        background-color: fuchsia;
+    }
+
+#listak {
+    background-color: peachpuff;
+}
+
+.suli {
+    background-color: white;
+    width: 400px;
+    border-radius: 25px;
+    margin: 5px;
+}
