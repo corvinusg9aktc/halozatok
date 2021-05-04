@@ -33,8 +33,24 @@ namespace otodikora.Controllers
             if (kérdés == null) return BadRequest("Nincs ilyen sorszámú kérdés");
 
             return new JsonResult(kérdés);
+
+
+
         }
+
+        [HttpGet]
+        [Route("questions/count")]
+        public int M4() //Tetszőleges metódusnév
+        {
+            HajostesztContext context = new HajostesztContext();
+            int kérdésekSzáma = context.Questions.Count();
+
+            return kérdésekSzáma;
+        }
+
+
     }
+
 
 
 }
